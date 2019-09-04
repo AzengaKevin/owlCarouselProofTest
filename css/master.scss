@@ -1,0 +1,31 @@
+$primary-color: #3b5994;
+
+body {
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+
+.text-primary{
+    color: $primary-color!important;
+}
+
+.special-offers{
+    h3{
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+}
+
+.img{
+    border: 2px solid #ccc;
+    border-radius: .25rem;
+
+    &:hover{
+        border-color: $primary-color;
+    }
+}
+
+small{
+    color: gray;
+}
